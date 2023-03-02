@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+	<head>
+		<link href="styles/sandbox.css" rel="stylesheet" type="text/css"/>
+		<script src = "js/nn/perceptron.js"></script>
+		<script src = "js/nn/nn.js"></script>
+		<script src = "js/bird.js"></script>
+		<script src = "js/pipe.js"></script>
+	</head>
+	
+	<body>
+		<div>
+			Session:
+				<select id="session">
+				</select>
+			Generation:
+				<select id = "generation">
+				</select>
+			<button id="startButton">Start</button>
+		</div>
+		<div id = "canvasContainer">
+			<canvas id="canvas"></canvas>
+		</div>
+		<div id="networkContainer">
+			<div id="theInputs"></div>
+			<canvas id = "networkCanvas"></canvas>
+			<div id="theOutput"></div>
+		</div>
+		<script src="js/sandbox.js"></script>
+	</body>
+</html>
